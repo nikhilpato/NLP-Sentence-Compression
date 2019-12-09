@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 from nltk import FreqDist
 
+# Dictionary of annotations that are not in 
+# the training data but are equal or similar.
 other_dep_annotations = {
     'obj': 'iobj',
     'cop': 'conj',

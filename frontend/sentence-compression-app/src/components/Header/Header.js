@@ -1,6 +1,17 @@
 import React from 'react';
 import styles from './Header.module.css';
 
+/**
+ *----------------------------------------
+ * Header Component
+ *----------------------------------------
+ *
+ * The header with the overall 
+ * descriptions.
+ *
+ *----------------------------------------
+ */
+
 function Header() {
     return (
         <div className={styles.header_container}>

@@ -51,6 +51,7 @@ def get_sentence(sentence):
     # create response by adding every word and simply indicating if its
     # kept or removed
     for i in range(1, len(res[0])):
+
         keep = False
         word = ids['reg_words'][i]
         # add period if not already added
@@ -68,4 +69,4 @@ def get_sentence(sentence):
 
 
 if __name__ == '__main__':
-  app.run(host="0.0.0.0", port=80)
+  app.run(host="0.0.0.0", port=9090)

@@ -59,6 +59,7 @@ def create_seq_mappings(word_seq, pos_seq, dep_seq, vocabulary, word2id, pos2id,
             pos_sent_id.append(pos2id[pos])
 
             # verify dependency annotation
+            dep = dep.split(':')[-1]
             if dep in dep2id:
                 dep_sent_id.append(dep2id[dep])
             elif dep in other_dep_annotations:

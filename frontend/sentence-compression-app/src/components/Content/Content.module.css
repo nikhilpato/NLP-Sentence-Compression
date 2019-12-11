@@ -55,6 +55,7 @@
     margin-top: 3%;
     font-size: smaller;
     padding-left: 20px;
+    overflow: auto;
 }
 
 .form_container{
@@ -84,6 +85,7 @@
     border: 1px solid lightgrey;
     border-radius: 8px;
     padding-left: 20px;
+    overflow: auto;
 }
 
 .text_field:focus{
